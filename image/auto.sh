@@ -9,6 +9,7 @@ echo "	2.) Windows 2012 R2"
 echo "	3.) Windows 2016"
 echo "	4.) Windows 2019"
 echo "	5.) Windows 2022"
+echo "  6.) Win 10 Pro"
 
 read -p "Pilih [1]: " selectos
 
@@ -20,6 +21,7 @@ case "$selectos" in
 	3) selectos="https://image.yha.my.id/2:/windows2016.gz";;
 	4) selectos="https://image.yha.my.id/2:/windows2019.gz";;
 	5) selectos="https://image.yha.my.id/2:/windows2022.gz";;
+        6) selectos="https://download1349.mediafire.com/je7f1g8jvqsgPMfNTPVCJLN8eQO21TmqLT65Rtukoh0gLGHCMKCiBkdYkGF2BlNUj_hBa3BCQaffkDoIWK2y1V18tEhDBGk19qzGdQSlFSdgcYATRucavvanTvvcIKCs4k8iIMB9iMVka6afAjHu_L8IXi_2gAI9ht6sTHzkM7RdqAk/jfcjxw8q6s201di/Win10ProNew.gz";;
 	*) echo "pilihan salah"; exit;;
 esac
 
