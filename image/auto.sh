@@ -9,7 +9,7 @@ echo "	2.) Windows 2012 R2"
 echo "	3.) Windows 2016"
 echo "	4.) Windows 2019"
 echo "	5.) Windows 2022"
-echo "  6.) Win 10 Pro"
+echo "      6.) Win 10 Pro"
 
 read -p "Pilih [1]: " selectos
 
